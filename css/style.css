@@ -134,7 +134,7 @@ h6 {
 }
 @media screen and (max-width: 768px) {
   #colorlib-page {
-    padding-top: 5em;
+    padding-top: 0em;
   }
 }
 
@@ -372,7 +372,7 @@ h6 {
 
 header {
   padding: 2em 0;
-  position: absolute;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -382,7 +382,7 @@ header {
 }
 @media screen and (max-width: 768px) {
   header {
-    padding: 2em 0;
+    padding: 1em 0;
   }
 }
 header .colorlib-navbar-brand {
@@ -616,7 +616,7 @@ header .colorlib-navbar-brand .colorlib-logo:focus {
   border-style: solid;
   position: absolute;
   top: 0;
-  border: 1px solid #000;
+  border: 15px solid #000;
 }
 
 .progress .progress-left .progress-bar {
